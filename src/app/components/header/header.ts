@@ -6,7 +6,6 @@ import { NavComponent } from '../nav/nav';
   selector: 'app-header',
   imports: [RouterOutlet, NavComponent],
   templateUrl: './header.html',
-  styleUrl: './header.css'
 })
 export class Header {
 
