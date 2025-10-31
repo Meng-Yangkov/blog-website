@@ -14,7 +14,7 @@ interface User{
   styleUrl: './control-flow.css'
 })
 export class ControlFlow {
-  user: User = {
+  users: User = {
     id: 1,
     name: "Pheng Mengheak",
     email: "heakmeng42@gmail.com",
