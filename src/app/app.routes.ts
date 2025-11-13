@@ -6,6 +6,8 @@ import { Testimonials } from './components/testimonials/testimonials';
 import { Blog } from './components/blog/blog';
 import { BlogDetails } from './components/blog-details/blog-details';
 import { Services } from './components/services/services';
+import { ControlFlow } from './components/control-flow/control-flow';
+
 
 export const routes: Routes = [
   {path: "home", component: Home},
@@ -15,5 +17,6 @@ export const routes: Routes = [
   {path: "blog", component: Blog},
   {path: "contact", component: Contact},
   {path: 'blogdetails', component: BlogDetails},
+  {path: 'controlflow', component: ControlFlow},
   {path: '', redirectTo:'home',pathMatch: 'full'}
 ];
